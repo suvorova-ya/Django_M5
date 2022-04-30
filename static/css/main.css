@@ -1,0 +1,145 @@
+body{
+   background:#ffffff;
+}
+aside{
+   float:left;
+   background:#ffffff;
+;
+   width:25%;
+   padding:2.5%;
+   height:100vh;
+   color:#f5f4f2;
+   border-right:6px solid #000000
+}
+
+aside img {
+    width:300px;
+    margin-left:center;
+
+}
+
+aside h3 {
+    margin-top:100px;
+    front-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2f5687;
+
+
+}
+
+aside ul {list-style:none}
+
+
+aside ul li  {
+     color:#f5f4f2;
+     display: block;
+     margin-top: 15px;
+     transition:transform .6s ease;
+     text-align: left;
+     font-family:Times New Roman;
+     font-size:1.1em;
+
+}
+
+aside ul li:hover,aside ul a:hover{
+     color:#f5f4f2;
+     text-decoration:none;
+     transform:scale(1.05);
+}
+main .features {
+  color: #000000;
+  text-align: center;
+  font-family:Times New Roman;
+  font-size:1.15em;
+  position:absolute;
+  top:50px;
+  right:50px;
+  left:150px;
+  padding:5px;
+  height:150px;
+  width:auto;
+  }
+
+main .features h3 {front-size: 50px;}
+main .features p {max-width:700px; margin:20px auto}
+
+form {
+    margin-left:32%;
+    max- width: auto;
+    margin-top: 50px;
+    margin:auto;
+}
+
+table {
+border-spacing: 0 10px;
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+th {
+padding: 10px 20px;
+background: #3d4656;
+color: #F9C941;
+border-right: 3px solid;
+font-size: 0.9em;
+}
+th:first-child {
+text-align: center;
+}
+th:last-child {
+border-right: none;
+}
+td {
+vertical-align: middle;
+padding: 10px;
+font-size: 14px;
+text-align: center;
+border-top: 2px solid #56433D;
+border-bottom: 2px solid #56433D;
+border-right: 2px solid #56433D;
+}
+td:first-child {
+border-left: 2px solid #56433D;
+border-right: 2px solid #56433D;
+}
+td:nth-child(2){
+text-align: left;
+}
+
+.info{
+height:auto;
+width:auto;
+background-color:#ffffff;
+border-right;
+4px solid #ff0026;
+border: 1px solid #1e8fce;
+border-radius: 10px;
+color: #000;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+    color: #2f5687;
+font-size:1.3em;
+}
+
+.naz1 {
+width: 100%;
+
+ front-size:50px;
+ text-align: center;
+ font: bold 72px Arial, sans-serif;
+ color: #000000;
+  }
+
+.details{
+height:auto;
+width:auto;
+background-color:#ffffff;
+border-right;
+4px solid #ff0026;
+border: 1px solid #1e8fce;
+border-radius: 10px;
+color: #000;
+text-align: justify;
+font-family: Yandex Sans Display Light;
+    color: #2f5687;
+font-size:1.3em;
+}

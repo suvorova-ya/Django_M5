@@ -1,0 +1,23 @@
+{% extends 'news_portal/default.html' %}
+
+{% load profanity_filters %}
+
+{% block title %}news{% endblock title %}
+
+{% block content %}
+<div class="naz1">
+  <h1>Новости на сайте</h1>
+</div>
+     {% for el in filter.qs %}
+<div class="info">
+
+            <h2>{{ el.title|censor}}</h2>
+            <p>{{ el.text|censor|truncatechars:50}}</p><br>
+                <a href="{% url 'details_view' el.id %}"class="btn btn-outline-success">Подробнее о статье</a><br>
+            <small>{{ el.dateCreation }}</small>
+            <small>{{ el.author }}</small>
+    </div>
+
+{% endfor %}
+{% endblock content %}
+views.py
